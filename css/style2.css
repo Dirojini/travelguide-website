@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+}
+.place h1{
+    background-color: black;
+    width: 1350px;
+
+}
+
+.img .a{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+   
+
+}

@@ -1,0 +1,681 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    height: 2900px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-color: black;
+}
+.bg{
+    position: absolute;
+}
+.place{
+    position: relative;
+    left: 900px;
+    bottom: 300px;
+    background-color: rgba(193, 211, 226, 0.747);
+    width: 300px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 2rem 1rem 2rem 0rem;
+   
+}
+.place a{
+    text-decoration: none;
+    color: black;
+    
+}
+.place a:hover{
+     color: rgb(87, 8, 21);
+     background-color: beige;
+}
+.bg .content{
+    position: relative;
+    top: 100px;
+    right: 300px;
+    font-size: 2rem;
+    color: black;
+}
+
+#navlist {
+    background-color: rgb(13, 14, 13);
+    overflow: hidden;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navlist a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navlist a:hover {
+    background-color: rgb(250, 252, 250);
+    color: rgb(10, 10, 10);
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 6px;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.search button {
+    padding: 6px 10px;
+    background: white;
+    color: rgb(10, 10, 10);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search button i {
+    font-size: 18px;
+}
+
+.search button:hover {
+    background: rgb(5, 5, 5);
+    color: white;
+}
+.bg{
+    background: url(../img/dal-lake-1.jpg);
+    width: 100%;
+    height: 800px;
+    
+}
+/* Logo and tag styling */
+.content {
+    
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content h1 {
+    color: rgb(3, 3, 3);
+}
+.container {
+    position: relative;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 0 30px 0;
+  } 
+.part2{
+    color: #f2f2f2;
+}
+.part2 .section{
+    height: 800px;
+    width:1350px;
+    background-color: #fcf7f7ef;
+
+}
+.part2 .section h2{
+    color: white;
+    background-color: rgb(1, 11, 153);
+    
+}
+.temple{
+    width:1350px;
+    position: absolute;
+    height: 350px;
+    background-color: #f2f2f2;
+    color: black;
+}
+.temple img{
+    position:relative;
+    display: inline;
+    left: 30px;
+    top: 50px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black;
+    
+}
+.temple #map{
+    position: relative;
+    bottom:230px ;
+    left: 950px;
+    border: solid 2px black;
+    width: 400px;
+}
+.temple .content p{
+    width: 400px;
+    height: 320px;
+    padding: 30px;
+    position: relative;
+   bottom: 660px;
+    left: 700px;
+    font-size: 1.2rem;
+    color: black;
+    background-color:rgb(114, 207, 127);
+    border: solid 2px;
+}
+.temple1{
+    width:1350px;
+    padding: 30px;
+    position: relative;
+    top: 400px;
+    height: 350px;
+    background-color: #f2f2f2;
+    color: black;
+}
+.temple1 img{
+    position:absolute;
+    display: inline;
+    left: 20px;
+    top: 50px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.temple1 #map{
+    position: relative;
+    /* bottom:230px ; */
+    left: 920px;
+    border: solid 2px black;
+    width: 400px;
+   
+}
+.temple1 .content p{
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    position: relative;
+   bottom: 450px;
+    left: 670px;
+    font-size: 1.2rem;
+    color: black;
+    background-color:rgb(125, 185, 182);
+    border: solid 2px;
+}
+.temple2{
+    width:1350px;
+    padding: 30px;
+    position: relative;
+    top: 30px;
+    height: 350px;
+    background-color: #f2f2f2;
+    color: black;
+}
+.temple2 img{
+    position:absolute;
+    display: inline;
+    left: 20px;
+    top: 50px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.temple2 #map{
+    position: relative;
+    /* bottom:230px ; */
+    left: 920px;
+    border: solid 2px black;
+    width: 400px;
+   
+}
+
+.temple2 .content2 p{
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    position: relative;
+   bottom: 250px;
+    left: 370px;
+    font-size: 1.2rem;
+    color: black;
+    background-color:rgba(200, 255, 0, 0.411);
+    border: solid 2px;
+}
+.temple3{
+    width:1350px;
+    padding: 30px;
+    position: relative;
+    top: 20px;
+    height: 350px;
+    background-color: #f2f2f2;
+    color: black;
+}
+.temple3 img{
+    position:absolute;
+    display: inline;
+    left: 20px;
+    top: 50px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.temple3 #map{
+    position: relative;
+    /* bottom:230px ; */
+    left: 920px;
+    border: solid 2px black;
+    width: 400px;
+   
+}
+.temple3 .content3 p{
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    position: relative;
+   bottom: 300px;
+    left: 370px;
+    font-size: 1.2rem;
+    color: black;
+    background-color:rgba(200, 255, 0, 0.411);
+    border: solid 2px;
+}
+.section1 h2{
+    background-color: rgb(7, 42, 241);
+    color: white;
+}    
+ .section1 .hotel{
+    background-color: rgb(248, 245, 245);
+    height: 500px;
+    width: 1350px;
+}
+.section1 .hotel #h1{
+    position:absolute;
+    display: inline;
+    left: 20px;
+    top: 2530px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section1 .hotel #h2{
+    position:absolute;
+    display: inline;
+    left: 30px;
+    top: 2750px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section1 #map{
+    border: solid 2px ;
+    position: relative;
+    width: 420px;
+    left: 930px;
+    top: 80px;
+}
+.section1 .hotel .ch{
+    width: 300px;
+    height: 450px;
+    position: relative;
+    background-color: pink;
+    left: 480px;
+    border: solid 2px black;
+    bottom: 280px;
+    padding: 30px;
+}
+.section1 .ch a:hover{
+    color: red;
+}
+.section2 .atm{
+    background-color: rgb(248, 245, 245);
+    height: 500px;
+    width: 1350px
+}
+.section2 .atm #a1{
+    position:absolute;
+    display: inline;
+    left: 20px;
+    top: 3350px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section2 .atm #a2{
+    position:absolute;
+    display: inline;
+    left: 30px;
+    top: 3100px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section2 #map{
+    border: solid 2px ;
+    position: relative;
+    width: 420px;
+    left: 880px;
+    bottom: 5580px;
+}
+.section2 .atm .ca{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    background-color: rgb(153, 176, 236);
+    box-shadow: 2rem 0 2rem 0rem;
+    left: 480px;
+    border: solid 2px black;
+    bottom: 210px;
+    padding: 30px;
+}
+.section2 .ca a:hover{
+    color: blue;
+}
+.section3 .airport{
+    background-color: rgb(248, 245, 245);
+    height: 500px;
+    width: 1350px
+}
+.section3 .airport #air{
+    position:absolute;
+    display: inline;
+    left: 20px;
+    top: 3650px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section3 .airport #port{
+    position:absolute;
+    display: inline;
+    left: 30px;
+    top: 3900px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section3 #map{
+    border: solid 2px ;
+    position: relative;
+    width: 420px;
+    left: 880px;
+    bottom: 5580px;
+}
+.section3 .airport .avani{
+    width: 300px;
+    height: 250px;
+    color: black;
+    position: relative;
+    font-size: 1.5rem;
+    left: 480px;
+    
+    bottom: 150px;
+    padding: 30px;
+}
+.section3 .avani a:hover{
+    color: blue;
+}
+.section4 .rs{
+    background-color: rgb(248, 245, 245);
+    height: 500px;
+    width: 1350px
+}
+.section4 .r1 img{
+    position:absolute;
+    display: inline;
+    width: 500px;
+    height: 400px;
+    left: 20px;
+    top: 4250px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section4 #map{
+    border: solid 2px ;
+    position: relative;
+    width: 420px;
+    left: 880px;
+    height: 320px;
+    bottom: 5580px;
+}
+.section4 .rs .cr p{
+    width: 300px;
+    height: 350px;
+    color: black;
+    position: relative;
+   
+    font-size: 2rem;
+    right: 260px;
+    bottom: 290px;
+    padding: 30px;
+}
+.section4 .cr a:hover{
+    color: blue;
+}
+.section5 .bs{
+    background-color: rgb(248, 245, 245);
+    height: 500px;
+    width: 1350px
+}
+.section5 .bs img{
+    position:absolute;
+    display: inline;
+    width: 500px;
+    height: 400px;
+    left: 20px;
+    top: 4810px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section5 #map{
+    border: solid 2px ;
+    position: relative;
+    width: 420px;
+    left: 900px;
+    height: 310px;
+    bottom: 5580px;
+}
+.section5 .bs .cb {
+    width: 300px;
+    height: 350px;
+   
+    color: black;
+    position: relative;
+    padding: 2px;
+    font-size: 2rem;
+    right: 330px;
+    bottom: 290px;
+    padding: 30px;
+}
+.section5 .cb a:hover{
+    color: blue;
+}
+.section6 .theater{
+    background-color: rgb(248, 245, 245);
+    height: 500px;
+    width: 1350px
+}
+.section6 .t1 img{
+    width: 400px;
+    height: 300px;
+
+}
+.section6 .t1 {
+    position:absolute;
+    display: inline;
+    width: 405px;
+    height: 305px;
+    left: 20px;
+    top: 5400px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section6 #map{
+    border: solid 2px ;
+    position: relative;
+    width: 420px;
+    left: 900px;
+    height: 310px;
+    bottom: 5580px;
+}
+.section6 .theater .ct {
+    width: 300px;
+    height: 350px;
+    color: black;
+    position: relative;
+    padding: 6px;
+    font-size: 1.5rem;
+    right: 380px;
+    bottom: 320px;
+    padding: 30px;
+}
+.section6 .ct a:hover{
+    color: blue;
+}
+.section7 .hospital{
+    background-color: rgb(248, 245, 245);
+    height: 500px;
+    width: 1350px
+}
+
+.section7  .hospital img {
+    position:absolute;
+    display: inline;
+    width: 405px;
+    height: 305px;
+    left: 20px;
+    top: 6000px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section7 #map{
+    border: solid 2px ;
+    position: relative;
+    width: 420px;
+    left: 900px;
+    height: 310px;
+    bottom: 5580px;
+}
+.section7 .hospital .ch {
+    width: 300px;
+    height: 350px;
+    color: black;
+    background-color: rgba(243, 237, 237, 0.959);
+    position: relative;
+    padding: 6px;
+    font-size: 1.5rem;
+    right: 380px;
+    bottom: 320px;
+    padding: 30px;
+}
+.section7 .ch a:hover{
+    color: blue;
+}
+.section8 .wf{
+    background-color: rgb(248, 245, 245);
+    height: 500px;
+    width: 1350px
+}
+
+.section8 .wf img {
+    position:absolute;
+    display: inline;
+    width: 405px;
+    height: 305px;
+    left: 20px;
+    top: 6550px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section8 #map{
+    border: solid 2px ;
+    position: relative;
+    width: 420px;
+    left: 900px;
+    height: 310px;
+    bottom: 5580px;
+}
+.section8 .wf #cw {
+    width: 300px;
+    height: 250px;
+    color: black;
+    background-color: rgba(45, 184, 189, 0.795);
+    position: absolute;
+    padding: 6px;
+    font-size: 1.5rem;
+    left: 500px;
+    top: 6570px;
+    padding: 60px;
+}
+.section8 #cw a:hover{
+    color: blue;
+}
+.section9 .mall{
+    background-color: rgb(248, 245, 245);
+    height: 500px;
+    width: 1350px
+}
+
+.section9 .m1 img {
+    position:absolute;
+    display: inline;
+    width: 405px;
+    height: 305px;
+    left: 20px;
+    top: 7110px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section9 #map{
+    border: solid 2px ;
+    position: relative;
+    width: 420px;
+    left: 900px;
+    height: 310px;
+    bottom: 5880px;
+}
+.section9 .mall .cm{
+    width: 300px;
+    height: 300px;
+    color: black;
+    background-color: rgba(169, 83, 172, 0.795);
+    position: relative;
+    padding: 6px;
+    font-size: 1.5rem;
+    left: 500px;
+    bottom: 230px;
+    padding: 60px;
+}
+.section9 .cm a:hover{
+    color: blue;
+}
+.section10 .park{
+    background-color: rgb(236, 242, 243);
+    height: 500px;
+    width: 1350px
+}
+
+.section10 .park img {
+    position:absolute;
+    display: inline;
+    width: 405px;
+    height: 305px;
+    left: 20px;
+    top: 7680px;
+    border: solid black;
+    box-shadow: 1rem 0rem 1rem 0rem black; 
+}
+.section10 #map{
+    border: solid 2px ;
+    position: relative;
+    width: 420px;
+    left: 900px;
+    height: 310px;
+    bottom: 6080px;
+}
+.section10 .park .cp{
+    width: 300px;
+    height: 300px;
+    color: black;
+    background-color: rgba(138, 139, 40, 0.795);
+    position: relative;
+    padding: 6px;
+    font-size: 1.5rem;
+    left: 500px;
+    bottom: 230px;
+    padding: 20px;
+}
+.section10 .cp a:hover{
+    color: blue;
+}
