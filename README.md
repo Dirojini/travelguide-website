@@ -1,6 +1,6 @@
 # Travel Guide Page
 ##demo
-![image alt]()
+![image alt](https://github.com/Dirojini/travelguide-website/blob/7c28725bfd2fa5af0c09ed751c9b0de37d3cd2bf/Screenshot%202024-12-24%20112602.png)
 
 ## Overview
 
